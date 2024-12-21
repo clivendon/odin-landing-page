@@ -102,11 +102,12 @@ h6 {
   min-height: 0;
 }
 
-.hero-main button {
+.signup-button {
   height: 2.25em;
   width: 8em;
   background-color: #3882f6;
   color: #e5e7eb;
+  border: 1px solid #3882f6;
   border-radius: 5px;
   margin-top: 0.5em;
 }
@@ -178,9 +179,47 @@ h6 {
   width: 900px;
 }
 .quote-author {
-    color: #1f2937;
+  color: #1f2937;
   margin-top: 2em;
   margin-left: 30em;
   font-weight: bold;
   font-size: 1.125rem;
+}
+
+.calltoaction {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  min-height: 0;
+  padding-bottom: 5em;
+}
+
+.actioncard{
+    background-color: #3882f6;
+    width: 70%;
+    height: 250px;
+    border-radius: 15px;
+    margin: 10em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    color: #e5e7eb;
+}
+
+.whiteborder{
+    border-color: #e5e7eb;
+}
+
+footer{
+    padding: 5em auto;
+    width: 100vw;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+footer p{
+    padding: 2em 0;
 }
