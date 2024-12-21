@@ -16,7 +16,6 @@ body {
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
   font-family: "Roboto", sans-serif;
-  
 }
 
 /* 5. Improve media defaults */
@@ -67,4 +66,100 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+.page-header {
+  display: flex;
+  width: 100vw;
+  background-color: #1f2937;
+  justify-content: space-around;
+  padding-top: 0.25em;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 1.5rem;
+}
+
+.nav-bar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 0 1em;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+  min-height: 0;
+}
+
+.hero-main {
+  width: 33%;
+  margin: 5em 5em;
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+.hero-main button {
+  height: 2.25em;
+  width: 8em;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+
+.hero-main h1 {
+  font-size: 3rem;
+  color: #f9faf8;
+}
+
+.hero-main p {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
+
+.main-image {
+  width: 33%;
+  height: 15em;
+  margin: 5em 5em;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+
+.content-section-light{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ;
+    min-height: 0;
+    padding-bottom: 5em;
+}
+
+.content-section-light h2{
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.image-container{
+    display: flex;
+    gap: 5em;
+}
+
+.image-container img{
+
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.image p{
+    margin-top: 10px;
+    width: 200px;
 }
